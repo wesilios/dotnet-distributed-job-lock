@@ -1,0 +1,6 @@
+@Application.InstanceOne_HostAddress = http://localhost:5075
+
+GET {{Application.InstanceOne_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

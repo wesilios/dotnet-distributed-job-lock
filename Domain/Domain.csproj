@@ -1,0 +1,20 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>net8.0</TargetFramework>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <Nullable>enable</Nullable>
+    </PropertyGroup>
+
+    <ItemGroup>
+        <PackageReference Include="Coravel" Version="5.0.4" />
+        <PackageReference Include="Hangfire.Core" Version="1.8.14" />
+        <PackageReference Include="Hangfire.AspNetCore" Version="1.7.36" />
+        <PackageReference Include="Hangfire.SqlServer" Version="1.7.36" />
+        <PackageReference Include="Microsoft.IdentityModel.Tokens" Version="6.35.0" />
+        <PackageReference Include="System.IdentityModel.Tokens.Jwt" Version="6.35.0" />
+        <PackageReference Include="TRECsLibrary" Version="1.0.24" />
+        <PackageReference Include="TRECsLibrary.Attributes" Version="1.0.15" />
+    </ItemGroup>
+
+</Project>
